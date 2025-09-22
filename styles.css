@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery {
+  position: absolute;
+  width: 100%;         /* <-- Missing semicolon was here */
+  height: 100vh;
+  overflow: hidden;
+}
